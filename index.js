@@ -20,8 +20,7 @@ var retos = [
   'tomar si o si por pete',
   'escribirle lo que elijan los de mas a quien elijan los de mas',
   'agregarle rey a todo lo que diga',
-  'pedirle a alguien de la escuela algo random que elijan los de mas',
-  'llamar a alguien y decirle que lo ama'
+  'llamar a alguien y decirle que la ama'
 ]
 
 function darReto() {
