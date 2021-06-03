@@ -15,6 +15,16 @@ body {
 #jugadores {
   color: #d9c091;
 }
+#botonretar {
+  text-align: center;
+}
+.retos {
+  background-color: #d9d0c1;
+  margin: 10%;
+  text-align: center;
+}
 #reto {
-  color: #d9c091;
+  font-weight: 500;
+  padding: 10%;
+  color: #1a1e26;
 }
