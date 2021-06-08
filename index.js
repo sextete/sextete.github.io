@@ -118,15 +118,24 @@ function shuffle(array) {
 var retos = shuffle(retos_inicial)
 console.log(retos_inicial)
 
-
+var jugadores = shuffle(jugadores_inicial)
+console.log(jugadores)
 
 var i=0;
+var j=0;
 function darReto(){
-    document.getElementById("reto").innerHTML = choose(jugadores_inicial) + " "+ retos[i];
+    document.getElementById("reto").innerHTML = jugadores[j] + " "+ retos[i];
     i++;
-    console.log(i)
+    j++;
+    console.log(i+" "+j)
     if(i===retos.length){
         i=0;
         shuffle(retos);
     }
+    if(j===jugadores.length){
+      j=0
+      shuffle(jugadores);
+      console.log(jugadores)
+    }
+
 }
