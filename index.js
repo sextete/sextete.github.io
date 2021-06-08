@@ -125,7 +125,7 @@ function darReto(){
     document.getElementById("reto").innerHTML = choose(jugadores_inicial) + " "+ retos[i];
     i++;
     console.log(i)
-    if(retos[i + 1] === undefined){
+    if(i===retos.length){
         i=0;
         shuffle(retos);
     }
