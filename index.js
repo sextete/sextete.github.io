@@ -1,5 +1,7 @@
 jugadores_inicial = [];
-
+// window.onbeforeunload = function () {
+//   return confirm('hasta que no hayan terminado de jugar no salgas');
+// }
 function addRecord() {
   var inp = document.getElementById('inputtext');
   jugadores_inicial.push(inp.value);
