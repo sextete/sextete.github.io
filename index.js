@@ -86,7 +86,7 @@ var retos_inicial = [
   "sácate una prenda en menos de 5 segundos o shot",
   "deci alguna caracteristica y todos señalen a la persona que tenga esa característica, la que sale toma",
   "si quebraste alguna vez toma vos y todos los que quebraron",
-  "5 jugadores de fútbol en 5 segundos, si ganas toman los demás y si perdes vos tomas",
+  "5 jugadores de fútbol en 5 segundos, si ganas toman los demás y si perdes tomas vos",
   "los que son más viejos que vos toman", 
   "los que son más jóvenes que vos toman",
   "deci que parte del cuerpo más te atrae  y los demás deciden si tomas o no", 
